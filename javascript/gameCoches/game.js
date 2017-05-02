@@ -8,7 +8,7 @@ var GP = {
 	TurnSpeed: 6,
 	Acceleration: 0.3
 };
-
+//agrege
 function RunGameFrame(Cars) {
 	// body... 
 	//Mueve los coches y recoge los impulsos de las colisiones.

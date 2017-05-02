@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_121">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="F:/trabajos/git/DesarrolloJuegos/java/exampleGame/libGame/native"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="libGame/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/cvaldes/Documents/juego/exampleGame/libGame/native"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="libGame/slick-util.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/cvaldes/Documents/juego/exampleGame/libGame/lwjgl_util.jar"/>
+	<classpathentry exported="true" kind="lib" path="libGame/lwjgl_util.jar"/>
+	<classpathentry exported="true" kind="lib" path="libGame/native/lwjgl64.dll"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

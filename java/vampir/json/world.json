@@ -1,0 +1,79 @@
+{
+	"world":[
+		{
+			"TypeObject":"Edifices",
+			"quantity":1,
+			"Object":
+			{
+				"NameObject" : "Edifice Capital",
+				"objID" : 1,
+				"Obj" : "CEdifice.Obj",
+				"textureID" : 1,
+				"texture" : "Tex_Edifice.png",
+				"position" :[250,350,20],
+				"scale": 1,
+				"characteristics":
+					{
+						"climbing" : true,
+						"destroyable" :true,
+						"hardBuilding": 1000
+
+					}
+			}
+			
+		},
+		{
+			"TypeObject":"floors",
+			"quantity":3,
+			"Object":[
+				{
+					"NameObject" : "BigFloors",
+					"objID" : 1,
+					"Obj" : "BigFloors.Obj",
+					"textureID" : 1,
+					"texture" : "BigFloors.png",
+					"position" :[500,600,300],
+					"scale": 1,
+					"characteristics":
+						{
+							"climbing" : false,
+							"destroyable" :true,
+							"hardBuilding": 5
+						}
+				},
+				{
+					"NameObject" : "MediumFloors",
+					"objID" : 1,
+					"Obj" : "MediumFloors.Obj",
+					"textureID" : 1,
+					"texture" : "MediumFloors.png",
+					"position" :[100,150,150],
+					"scale": 1,
+					"characteristics":
+						{
+							"climbing" : false,
+							"destroyable" :true,
+							"hardBuilding": 2
+						}
+				},
+				{
+					"NameObject" : "SmallFloors",
+					"objID" : 1,
+					"Obj" : "SmallFloors.Obj",
+					"textureID" : 1,
+					"texture" : "SmallFloors.png",
+					"position" :[20,40,50],
+					"scale": 1,
+					"characteristics":
+						{
+							"climbing" : false,
+							"destroyable" :true,
+							"hardBuilding": 2
+						}
+				}
+
+			]
+		}
+
+	]
+}

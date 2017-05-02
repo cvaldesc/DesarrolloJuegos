@@ -1,0 +1,12 @@
+INDEX VERSION 1.127+F:\trabajos\git\DesarrolloJuegos\java\.metadata\.plugins\org.eclipse.jdt.core
+2545511404.index
+198176546.index
+1631573988.index
+2536038779.index
+252584384.index
+2173067495.index
+3869157600.index
+2140934008.index
+1031926027.index
+4127711740.index
+3887779779.index

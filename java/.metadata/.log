@@ -591,3 +591,68 @@ Java Model Exception: Java Model Status [  does not exist]
 
 !ENTRY com.vaadin.designer2 1 0 2017-05-01 22:26:55.437
 !MESSAGE Save JSON notifications content to cache file F:\trabajos\git\DesarrolloJuegos\java\.metadata\.plugins\com.vaadin.integration.eclipse\notifications-cache.json
+!SESSION 2017-05-07 03:05:35.794 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.vaadin.designer2 1 0 2017-05-07 03:06:00.621
+!MESSAGE Schedule fetching all notifications
+
+!ENTRY com.vaadin.designer2 1 0 2017-05-07 03:06:00.889
+!MESSAGE Schedule version update jobs
+
+!ENTRY com.vaadin.designer2 2 0 2017-05-07 03:06:00.901
+!MESSAGE Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+
+!ENTRY com.vaadin.designer2 1 0 2017-05-07 03:06:01.410
+!MESSAGE Fetching all notifications
+
+!ENTRY com.vaadin.designer2 1 0 2017-05-07 03:06:01.426
+!MESSAGE Requesting user info (notification settings URL)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-07 03:06:02.248
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ravnos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.vaadin.designer2 1 0 2017-05-07 03:06:02.977
+!MESSAGE HTTP Response code :200
+
+!ENTRY com.vaadin.designer2 1 0 2017-05-07 03:06:02.985
+!MESSAGE HTTP Response code :200
+
+!ENTRY com.vaadin.designer2 1 0 2017-05-07 03:06:02.993
+!MESSAGE Parse notifications
+
+!ENTRY com.vaadin.designer2 1 0 2017-05-07 03:06:03.004
+!MESSAGE Save JSON notifications content to cache file F:\trabajos\git\DesarrolloJuegos\java\.metadata\.plugins\com.vaadin.integration.eclipse\notifications-cache.json
+
+!ENTRY com.vaadin.designer2 1 0 2017-05-07 03:06:03.813
+!MESSAGE Icon https://vaadin.com/documents/10187/3851288/Designer+180px/54ea839e-7a56-44e5-88bc-92a77bf89fc3?t=1447765982000 is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2017-05-07 03:06:04.324
+!MESSAGE Image https://vaadin.com/documents/10187/3851288/Designer+notification+banner/93c7db2d-1e5d-438b-8794-8adc2190c4fd?t=1449234529000 is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2017-05-07 03:06:04.378
+!MESSAGE Schedule fetching new notifications
+
+!ENTRY org.eclipse.jdt.core 4 0 2017-05-07 03:06:31.137
+!MESSAGE Invalid ZIP archive: libGame/native/lwjgl64.dll [in exampleGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2017-05-07 03:06:31.145
+!MESSAGE Invalid ZIP archive: libGame/native/lwjgl64.dll [in exampleGame]
+
+!ENTRY com.vaadin.designer2 1 0 2017-05-07 03:06:31.181
+!MESSAGE All vaadin 7+ projects : []
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-05-07 03:08:12.420
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-05-07 03:08:12.446
+!MESSAGE IvyDE plugin started

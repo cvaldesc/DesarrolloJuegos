@@ -5,10 +5,11 @@ var GP = {
 	CarRadius: 25,
 	FrictionMultiplier: 0.97,
 	MaxSpeed: 6,
-	TurnSpeed: 6,
+	TurnSpeed: 0.1,
 	Acceleration: 0.3
 };
 function RunGameFrame(Cars) {
+	console.log(Cars)
 	// body... 
 	//Mueve los coches y recoge los impulsos de las colisiones.
 	//cada impulso sera una matriz en el formato
@@ -28,7 +29,7 @@ function RunGameFrame(Cars) {
 				el coche puede estar todavia muy cerca de la pared, pero tendra la velocidad apuntando a otro lado. Deberiamos no 
 				tratar eso como otra colision. Esa es la razon para este codigo.
 			*/
-			if( (Cars[i].x <= GP.CarRadius && Cars[i].VX <= 0) || (Cars[i].X >= GP.GameWidth - GP.CarRadius && Cars[i].VX >= 0)){
+			if( (Cars[i].X <= GP.CarRadius && Cars[i].VX <= 0) || (Cars[i].X >= GP.GameWidth - GP.CarRadius && Cars[i].VX >= 0)){
 				//Gira el coche
 				Impulses.push([i,null, 2 * Cars[i].VX, 0]);
 			}
@@ -95,14 +96,14 @@ function RunGameFrame(Cars) {
 		}
 		if(Impulses[i][1] in Cars){
 			Cars[Impulses[i][1]].VX += Impulses[i][2];
-			Cars[Impulses[i][1]].VY -= Impulses[i][3];
+			Cars[Impulses[i][1]].VY += Impulses[i][3];
 		}
 	}
 	//Fuerza un limite de velocidades y aplica friccion
 	for (var i = 0; i < Cars.length; i++) {
 		//reduce la velocidad del coche si sobrepasa el limite.
-		var Speed =Math.sqrt(Cars[i].VX * Cars[i].VX + Cars[i].VY * Cars[i].VY);
-		if(speed >= GP.MaxSpeed){
+		var Speed = Math.sqrt(Cars[i].VX * Cars[i].VX + Cars[i].VY * Cars[i].VY);
+		if(Speed >= GP.MaxSpeed){
 			Cars[i].VX *= GP.MaxSpeed / Speed;
 			Cars[i].VY *= GP.MaxSpeed / Speed;
 		}

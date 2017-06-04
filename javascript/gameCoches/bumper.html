@@ -5,10 +5,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Bumpers cars</title>
 	<script src="game.js" type="text/javascript" ></script>
+	<script src="client.js" type="text/javascript" ></script>
+	
 </head>
 <body style="text-align: center">
-	<canvas id="BumpersCanvas" style="border: 1px solid black">
+	<canvas id="BumperCanvas" style="border: 1px solid black">
 		your browser does not support html canvas!
 	</canvas>
 </body>
+<script>
+Cars.push({X:200, Y:200, VX:0, VY:0, OR:0});
+Cars.push({X:100, Y:100, VX:5, VY:0, OR:0});
+Cars.push({X:300, Y:300, VX:-1, VY:-1, OR:Math.PI});
+MyCar = Cars[2];
+</script>
 </html>
